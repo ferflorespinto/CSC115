@@ -1,0 +1,87 @@
+Name: Jorge Fernando Flores Pinto
+ID: V00880059
+
+Linked
+======
+
+10
+ linkedmap over 10 iterations.
+[1491126980669 linked] put loop count: 45
+[1491126980669 linked] get loop count: 100
+
+100
+ linkedmap over 100 iterations.
+[1491127211121 linked] put loop count: 4950
+[1491127211121 linked] get loop count: 10000
+
+1,000
+ linkedmap over 1000 iterations.
+[1491127257146 linked] put loop count: 499500
+[1491127257146 linked] get loop count: 1000000
+
+10,000
+ linkedmap over 10000 iterations.
+[1491127274782 linked] put loop count: 49995000
+[1491127274782 linked] get loop count: 100000000
+
+100,000
+ linkedmap over 100000 iterations.
+[1491127305394 linked] put loop count: 704779346
+[1491127305394 linked] get loop count: 1409765408
+
+300,000
+ linkedmap over 300000 iterations.
+[1491127475541 linked] put loop count: 2048636980
+[1491127475541 linked] get loop count: -200888129
+
+Binary Search Tree
+==================
+
+10
+ bst   map over 10 iterations.
+[1491128806109 bst   ] put loop count: 20
+[1491128806109 bst   ] get loop count: 38
+
+100
+ bst   map over 100 iterations.
+[1491128873133 bst   ] put loop count: 580
+[1491128873133 bst   ] get loop count: 742
+
+1,000
+ bst   map over 1000 iterations.
+[1491128887129 bst   ] put loop count: 12277
+[1491128887129 bst   ] get loop count: 14073
+
+10,000
+ bst   map over 10000 iterations.
+[1491128906394 bst   ] put loop count: 164586
+[1491128906394 bst   ] get loop count: 185286
+
+100,000
+ bst   map over 100000 iterations.
+[1491128986868 bst   ] put loop count: 2020971
+[1491128986868 bst   ] get loop count: 2220071
+
+300,000
+ bst   map over 300000 iterations.
+[1491129014628 bst   ] put loop count: 6496299
+[1491129014628 bst   ] get loop count: 7097589
+
+1,000,000
+ bst   map over 1000000 iterations.
+[1491166083901 bst   ] put loop count: 24124139
+[1491166083901 bst   ] get loop count: 26130873
+
+Questions
+=========
+
+1) Approximately how long did it take your computer to run the test for 300,000 iterations on the linked implementation?
+
+It took about 18 minutes to complete.
+
+2) What is the maximum value you can run the binary search tree implementation for and have it finish in less than a few seconds?
+
+I considered less than 10 seconds to be pretty quick. Under this consideration, the maximum value that I could run the binary search tree implementation for was 1,290,000. At this value, the program finished in approximately 10 seconds. And after 1,500,000, my computer started to give an OutOfMemoryError.
+
+ 
+ 
